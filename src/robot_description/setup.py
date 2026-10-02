@@ -15,6 +15,8 @@ setup(
         	['launch/display.launch.py']),
         (os.path.join('share',package_name, 'urdf'),
         	['urdf/first_robot.urdf']),	
+        (os.path.join('share',package_name, 'launch'),
+                    ['launch/gazebo.launch.py']),	    
     ],
     install_requires=['setuptools'],
     zip_safe=True,
